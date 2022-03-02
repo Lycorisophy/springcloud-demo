@@ -1,0 +1,10 @@
+spring:
+  # 数据源配置
+  datasource:
+    # Mysql8.X驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=Asia/Shanghai
+    username: root
+    password: root
+server:
+  port: 8082
